@@ -1,0 +1,30 @@
+.section--padding {
+  padding-bottom: 94px;
+}
+
+.features-list {
+  display: flex;
+}
+
+.features-list__item {
+  max-width: 270px;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.features-list__block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  background-color: var(--team-bg);
+}
+
+.features-list__icon {
+  width: 70px;
+  height: 70px;
+}
