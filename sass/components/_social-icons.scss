@@ -5,6 +5,10 @@
   &--center {
     justify-content: center;
   }
+
+  @media screen and (min-width: 768px) and (max-width: 1199.98px) {
+    justify-content: center;
+  }
 }
 
 .social-icons__items:not(:last-child) {

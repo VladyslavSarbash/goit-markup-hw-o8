@@ -39,16 +39,36 @@ p {
 }
 
 .container {
-  width: 1200px;
+  width: 100%;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+
+  @media screen and (min-width: 480px) {
+    max-width: 480px;
+    // background-color: tomato;
+  }
+
+  @media screen and (min-width: 768px) {
+    max-width: 768px;
+    // background-color: blue;
+  }
+
+  @media screen and (min-width: 1200px) {
+    max-width: 1200px;
+    // background-color: green;
+  }
 }
 
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
+
+  @media screen and (max-width: 1199.98px) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
 }
 
 img {

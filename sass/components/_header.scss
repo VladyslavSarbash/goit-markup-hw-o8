@@ -1,6 +1,10 @@
 .navigation-list {
   display: inline-flex;
   margin-left: 0;
+
+  @media screen and (max-width: 767.98px) {
+    display: none;
+  }
 }
 
 .navigation-list__item:not(:last-child) {
@@ -15,11 +19,11 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--title-color);
-  
+
   &--current {
     color: var(--button-color);
   }
-  
+
   &--current::after {
     content: "";
     position: absolute;
@@ -33,7 +37,15 @@
   }
 }
 
+.navigation-link {
+  @media screen and (max-width: 767.98px) {
+    display: none;
+  }
 
+  @media screen and (min-width: 768px) and (max-width: 1199.98px) {
+    // display: flex;
+  }
+}
 
 .navigation-contact {
   display: inline-flex;
@@ -43,7 +55,18 @@
   color: var(--main-text-color);
 
   &:not(:last-child) {
-    margin-right: 50px;
+    
+    @media screen and (min-width: 768px) and (max-width: 1199.98px) {
+      margin-bottom: 10px;
+    }
+    
+    @media screen and(min-width: 1200px) {
+      margin-right: 50px;
+    }
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1199.98px) {
+    display: flex;
   }
 }
 

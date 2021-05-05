@@ -21,26 +21,30 @@
                     <li class="navigation-list__item"><a class="link navigation-list__link" href="">Контакты</a></li>
                 </ul>
             </nav>
-            <a class="link navigation-contact" href="mailto:info@devstudio.com">
-                <svg class="navigation-contact__icons" width="16" height="12">
-                    <use href="./image/icons.svg#icon-mail"></use>
-                </svg>
-                info@devstudio.com
-            </a>
-            <a class="link navigation-contact" href="tel:+380961111111">
-                <svg class="navigation-contact__icons" width="10" height="16">
-                    <use href="./image/icons.svg#icon-smartphone"></use>
-                </svg>
-                +38 096 111 11 11
-            </a>
+            <div class="navigation-link">
+                <a class="link navigation-contact" href="mailto:info@devstudio.com">
+                    <svg class="navigation-contact__icons" width="16" height="12">
+                        <use href="./image/icons.svg#icon-mail"></use>
+                    </svg>
+                    info@devstudio.com
+                </a>
+                <a class="link navigation-contact" href="tel:+380961111111">
+                    <svg class="navigation-contact__icons" width="10" height="16">
+                        <use href="./image/icons.svg#icon-smartphone"></use>
+                    </svg>
+                    +38 096 111 11 11
+                </a>
+            </div>
         </div>
-    </header>                                  
+    </header>
     <main>
         <!-- Herous -->
-        <section class="hero">
+         <section class="hero">
+             <div class="container">
                 <h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
                 <button class="hero__button" type="button" data-modal-open>Заказать услугу</button>
-        </section>
+            </div>
+            </section>  
         <!-- Особенности -->
         <section class="section">
             <div class="container">
@@ -86,32 +90,32 @@
             </div> 
         </section>
         <!-- Чем мы занимаемся -->
-        <section class="section--padding">
-            <div class="container">
+         <section class="section--padding">
+            <div class="container container__work">
                 <h2 class="main-title">Чем мы занимаемся</h2>
                 <ul class="list work-list">
                     <li class="work-list__item">
-                        <img src="./image/img.jpg" width="370" height="296" alt="Написание кода">
+                        <img src="./image/img/box/box1.jpg" alt="Написание кода">
                         <p class="main-text">Десктопные приложения</p>
                     </li>
                     <li class="work-list__item">
-                        <img src="./image/img-1.jpg" width="370" height="296" alt="Создание приложений">
+                        <img src="./image/img-1.jpg" alt="Создание приложений">
                         <p class="main-text">Мобильные приложения</p>
                     </li>
                     <li class="work-list__item">
-                        <img src="./image/img-2.jpg" width="370" height="296" alt="Работа с программами">
+                        <img src="./image/img-2.jpg" alt="Работа с программами">
                         <p class="main-text">Дизайнерские решения</p>
                     </li>
                 </ul>
             </div>
         </section>
         <!-- Наша команда -->
-        <section class="section team-bg">
+         <section class="section team-bg">
             <div class="container">
                 <h2 class="main-title">Наша команда</h2>
                 <ul class="list team-list">
                     <li class="team-list__item">
-                        <img src="./image/team/img.jpg" width="270" height="260" alt="Игорь Демьяненко">
+                        <img src="./image/team/img.jpg" alt="Игорь Демьяненко">
                         <div class="team-block">
                             <h3 class="team-list__text team-list__title">Игорь Демьяненко</h3>
                             <p class="team-list__text">Product Designer</p>
@@ -148,7 +152,7 @@
                         </div>
                     </li>        
                     <li class="team-list__item">
-                        <img src="./image/team/img-1.jpg" width="270" height="260" alt="Ольга Репина">
+                        <img src="./image/team/img-1.jpg" alt="Ольга Репина">
                         <div class="team-block">
                             <h3 class="team-list__text team-list__title">Ольга Репина</h3>
                             <p class="team-list__text">Frontend Developer</p>
@@ -185,7 +189,7 @@
                         </div>
                     </li>    
                     <li class="team-list__item">
-                        <img src="./image/team/img-2.jpg" width="270" height="260" alt="Николай Тарасов">
+                        <img src="./image/team/img-2.jpg" alt="Николай Тарасов">
                         <div class="team-block">
                             <h3 class="team-list__text team-list__title">Николай Тарасов</h3>
                             <p class="team-list__text">Marketing</p>
@@ -222,7 +226,7 @@
                         </div>
                     </li>
                     <li class="team-list__item">
-                        <img src="./image/team/img-3.jpg" width="270" height="260" alt="Михаил Ермаков">
+                        <img src="./image/team/img-3.jpg" alt="Михаил Ермаков">
                         <div class="team-block">
                             <h3 class="team-list__text team-list__title">Михаил Ермаков</h3>
                             <p class="team-list__text">UI Designer</p>
@@ -262,7 +266,7 @@
             </div>
         </section>
         <!-- Постоянные клиенты -->
-        <section class="section">
+         <section class="section">
             <div class="container">
                 <h2 class="main-title">Постоянные клиенты</h2>
                 <ul class="list clients">
