@@ -2,9 +2,11 @@
   display: inline-flex;
   margin-left: 0;
 
+  &--desktop {
   @media screen and (max-width: 767.98px) {
     display: none;
   }
+}
 }
 
 .navigation-list__item:not(:last-child) {
@@ -34,6 +36,10 @@
     height: 4px;
     border-radius: 2px;
     background-color: currentColor;
+  }
+
+  @media screen and (max-width: 767.98px) {
+    padding: 0;
   }
 }
 

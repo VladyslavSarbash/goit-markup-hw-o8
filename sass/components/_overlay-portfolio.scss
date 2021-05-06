@@ -17,6 +17,11 @@
 
   color: var(--text-white-color);
   background-color: rgba(33, 150, 243, 0.9);
+
+  @media screen and (max-width: 767.98px) {
+    padding-top: 77px;
+    padding-bottom: 77px;
+  }
 }
 
 .content__link:hover .thumb__text,
