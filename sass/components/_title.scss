@@ -14,7 +14,8 @@
   @media screen and (min-width: 480px) {
   }
 
-  @media screen and (min-width: 768px) {
+  @media screen and (max-width: 1199.98px) {
+  max-width: 360px;
   }
 
   @media screen and (min-width: 1200px) {
@@ -24,6 +25,9 @@
 }
 
 .features-list__title {
+  display: flex;
+  justify-content: center;
+  
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
